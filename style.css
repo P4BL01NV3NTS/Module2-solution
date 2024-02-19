@@ -1,0 +1,48 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    background-color: #555;
+    color: white;
+    margin: 0 10px;
+    flex-basis: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .menu-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .menu-content {
+    padding: 10px;
+    margin-top: 30px; /* Make space for the absolutely positioned header */
+  }
+  
+  .menu-header.chicken { background-color: #A52A2A; }
+  .menu-header.beef { background-color: #8B0000; }
+  .menu-header.sushi { background-color: #000080; }
+  
+  .menu-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    color:#333;
+    background-color:beige;
+    padding: 5px;
+  }
+
+  .menu-title {
+    /* ... existing styles ... */
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+  
+  
